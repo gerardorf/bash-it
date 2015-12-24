@@ -7,3 +7,5 @@ eval "$(thefuck --alias)"
 eval "$(thefuck --alias FUCK)"
 # in spanish:
 eval "$(thefuck --alias caguen)"
+# really short:
+eval "$(thefuck --alias f)"
