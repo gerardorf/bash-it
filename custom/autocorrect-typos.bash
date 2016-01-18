@@ -8,3 +8,4 @@ shopt -s cdspell
 
 # Case-insensitive filename autocompletion using TAB
 shopt -s nocaseglob
+shopt -s nocasematch
