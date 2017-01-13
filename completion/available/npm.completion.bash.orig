@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# npm (Node Package Manager) completion
+<<<<<<< HEAD
+=======
+# https://docs.npmjs.com/cli/completion
+>>>>>>> c519ff6b19956a2e37240de668a1bac4ede64814
+
+if command -v npm &>/dev/null
+then
+  eval "$(npm completion)"
+fi

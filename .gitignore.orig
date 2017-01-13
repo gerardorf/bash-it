@@ -1,0 +1,18 @@
+.atom-build.json
+*/enabled/*
+.DS_Store
+<<<<<<< HEAD
+# custom/*
+=======
+custom/*
+>>>>>>> c519ff6b19956a2e37240de668a1bac4ede64814
+!custom/example.bash
+.rvmrc
+aliases/custom.aliases.bash
+completion/custom.completion.bash
+lib/custom.bash
+plugins/custom.plugins.bash
+*.swp
+.*.un~
+bats
+.idea

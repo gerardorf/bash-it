@@ -1,0 +1,18 @@
+# Load rbebv, if you are using it
+
+cite about-plugin
+about-plugin 'load rbenv, if you are using it'
+
+<<<<<<< HEAD
+pathmunge "${HOME}/.rbenv/bin"
+
+[[ `which rbenv` ]] && eval "$(rbenv init -)"
+
+# Load the auto-completion script if rbenv was loaded.
+[[ -e ~/.rbenv/completions/rbenv.bash ]] && source ~/.rbenv/completions/rbenv.bash
+=======
+pathmunge "$HOME"/.rbenv/bin
+[ -x `which rbenv` ] && eval "$(rbenv init -)"
+
+[ -d "$HOME"/.rbenv/plugins/ruby-build ] && pathmunge "$HOME"/.rbenv/plugins/ruby-build/bin
+>>>>>>> c519ff6b19956a2e37240de668a1bac4ede64814
