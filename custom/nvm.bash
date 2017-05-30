@@ -4,4 +4,4 @@
 
 export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-nvm use v6.7.0
+nvm use v6.10.3
