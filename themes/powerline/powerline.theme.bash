@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 . "$BASH_IT/themes/powerline/powerline.base.bash"
+. "$BASH_IT/themes/powerline/terraform.base.bash"
 
 PROMPT_CHAR=${POWERLINE_PROMPT_CHAR:=""}
 POWERLINE_LEFT_SEPARATOR=${POWERLINE_LEFT_SEPARATOR:=""}
@@ -46,6 +47,6 @@ THEME_CLOCK_FORMAT=${THEME_CLOCK_FORMAT:="%H:%M:%S"}
 IN_VIM_THEME_PROMPT_COLOR=245
 IN_VIM_THEME_PROMPT_TEXT="vim"
 
-POWERLINE_PROMPT=${POWERLINE_PROMPT:="user_info scm python_venv ruby cwd"}
+POWERLINE_PROMPT=${POWERLINE_PROMPT:="clock user_info terraform_workspace scm python_venv ruby cwd"}
 
 safe_append_prompt_command __powerline_prompt_command
